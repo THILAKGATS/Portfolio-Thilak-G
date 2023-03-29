@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thilak Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <p class="logo">Thilak G</p>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="./ThilakGunasekaran.pdf" download="ThilakResume"
+        ><button type="button">Download CV</button></a
+      >
+      <div class="menu">
+        <img src="./images/icons/menu.svg" alt="menu bar" />
+      </div>
+    </nav>
+    <div class="offcanvas">
+      <div class="close"><span class="close-button">x</span></div>
+      <ul>
+        <li><a href="#about" class="nav-links">About</a></li>
+        <li><a href="#skill" class="nav-links">Skills</a></li>
+        <li><a href="#portfolio" class="nav-links">Portfolio</a></li>
+        <li><a href="#contact" class="nav-links">Contact</a></li>
+        <li>
+          <a
+            href="./ThilakGunasekaran.pdf"
+            class="nav-links"
+            download="ThilakResume"
+            >Download CV</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <header id="about">
+        <div class="about">
+          <p class="title">Welcome</p>
+          <p class="sub-head">
+            I’m <span class="primary">Thilak</span>, <br />a
+            <span class="primary">Fullstack Developer</span>
+          </p>
+          <p class="description">
+            Web application developer, specialized in building digital experiences with the ability to analyse, design and develop highly scalable and quality assured.
+          </p>
+          <div class="btns">
+            <button type="button" class="btn clickable">
+              <a href="#contact">Contact Me</a>
+            </button>
+            <button type="button" class="invisible-btn clickable">
+              <a href="#portfolio">View Portfolio</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="header-img">
+          <img src="./images/PHOTO-THILAK.jpg" alt="laptop design" />
+        </div>
+      </header>
+
+      <section id="skill">
+        <div class="skill-container">
+          <div class="hire-area">
+            <p class="title">My Skills</p>
+            <p class="subtitle">About <span class="primary">Me?</span></p>
+            <p class="description">
+              I enjoy building dynamic, creative products from start to finish. I focus on developing intuitive experiences that constantly grow and improve based on metrics. Over the years I've worked at Zealous tech corp as intern, I have had the chance to work across multiple stacks and technologies. 
+              I've gained knwoledge in both front end and backend javascript frameworks like ReactJS.
+            </p>
+
+            <p class="description">
+              I hold a Bachelor degree in  Computer Science and Application 
+            </p>
+            <p class="description">
+              At present I am working as a Senior Process Executive in Cognizant.
+            </p>
+            <button type="button" class="clickable">
+              <a href="#contact">Hire Me</a>
+            </button>
+          </div>
+
+          <div class="skills">
+            <div>
+              <img
+                src="./images/icons/diamond.svg"
+                alt="diamond icon"
+                style="margin-bottom: -2rem"
+              />
+              <h3>Frontend</h3>
+              <p class="description">
+                HTML, CSS, Bootstrap, Javascript and ReactJS
+              </p>
+            </div>
+            <div>
+              <img
+                src="./images/icons/school.svg"
+                alt="diamond icon"
+                style="margin-bottom: -2rem"
+              />
+              <h3>Other</h3>
+              <p class="description">
+                Testing-Junit, CI/CD-Jenkins, SCM- Git and Github
+              </p>
+            </div>
+          </div>
+          <div class="skill-backend">
+            <img
+              src="./images/icons/pulse.svg"
+              alt="diamond icon"
+              style="margin-bottom: -0.5rem; margin-top: 0.5rem"
+            />
+            <h3>Backend</h3>
+            <p class="description">
+              Java, Springboot, Rest API, Hibernate, Maven and Database-Mysql.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <p class="title">Portfolio</p>
+        <p class="subtitle">My <span class="primary">Projects</span></p>
+        <p class="description">
+          I have selected and mentioned here some of my projects to share with
+          you.
+        </p>
+        <div class="projects">
+          
+          <div class="project">
+            <h4 class="heading">Console Application - Java</h4>
+            <a
+              href="https://github.com/THILAKGATS/ProjectPharmacy"
+              target="_blank"
+              ><button>view page</button></a
+            >
+            <a
+              href="https://github.com/THILAKGATS/ProjectPharmacy"
+              target="_blank"
+              ><button>view code</button></a
+            >
+            <img
+              src="./images/Pharmacyproject.png"
+              alt="java console project"
+            />
+          </div>
+          <div class="project">
+            <h4 class="heading">Bike Service Project</h4>
+            <a
+              href="https://github.com/THILAKGATS/bikeserviceproject-Connection-master"
+              target="_blank"
+              ><button>view page</button></a
+            >
+            <a
+              href="https://github.com/THILAKGATS/bikeserviceproject-Connection-master"
+              target="_blank"
+              ><button>view code</button></a
+            >
+            <img
+              src="./images/bikeserviceprojectconnection.png"
+              alt="Bike Service Project"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <p class="title">Contact</p>
+        <p class="subtitle">Contact <span class="primary">Me</span></p>
+        <p class="description">
+           I'm open to Job opportunities where I can contribute, learn and grow. If you like my projects contact me to communicate
+        </p>
+        <div class="contact-section">
+          <div class="my-details">
+            <div class="row">
+              <img src="./images/icons/phone.svg" alt="phone icon" />
+              <div>
+                <p class="detail-head">Call me</p>
+                <p class="detail">+91 9003869045</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./images/icons/message.svg" alt="message icon" />
+              <div>
+                <p class="detail-head">Email me</p>
+                <p class="detail">thilakg399@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./images/icons/location.svg" alt="location icon" />
+              <div>
+                <p class="detail-head">Address</p>
+                <p class="detail">Salem, Tamilnadu, India.</p>
+              </div>
+            </div>
+          </div>
+          <form class="input-area" method="post" enctype="text/plain" id="form">
+            <div class="input-group">
+              <input
+                type="text"
+                placeholder="Full name"
+                name="Name"
+                required
+                title=""
+                id="name"
+              />
+              <input
+                type="email"
+                placeholder="Your email"
+                name="Email"
+                required
+                title=""
+                id="email"
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+              title=""
+              id="message"
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <hr />
+      <footer>
+        <p>@ 2023. All Rights Reserved</p>
+        <p>Designed by Thilak G</p>
+        <div class="profile-icons">
+          <a href="https://www.linkedin.com/feed/">
+            <img
+              src="./images/icons/linkedin.svg"
+              alt="linkedin icon"
+              title="Linkedin Portfolio"
+            />
+          </a>
+          <a href="https://github.com/THILAKGATS">
+            <img
+              src="./images/icons/github.svg"
+              alt="github icon"
+              class="github-icon"
+              title="Github Portfolio"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
